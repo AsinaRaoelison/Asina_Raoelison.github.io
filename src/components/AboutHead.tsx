@@ -66,9 +66,7 @@ function AboutHead() {
           Hey there, I'm Asina Raoelison. I am a data scientist, mathematician and software enthusiast.
           <br></br>
           <br></br>
-          I am currently working as MLOps Engineer in a team of passionate software engineers at Quanthome, a data-driven startup based in Lausanne and aiming at digitalising the Swiss real estate market. There, I got the opportunity to consolidate and expand my software stack while recruiting and supervising a team of junior data scientists,
-          leading machine learning engineering projects, working on database architecture and data migration projects, as well as realizing MLOps projects like implementing workflow orchestration
-          pipelines, setting up CI-CD frameworks and continuous monitoring.
+          xsdbnm'ffmn
           <br></br>
           <br></br>
           I hold both a Bachelor's and Master's degree in Mathematics from EPFL. My academic focus included statistical data analysis, topological data analysis, and statistical machine learning, equipping me with the analytical skills necessary for tackling complex data challenges.
