@@ -63,7 +63,7 @@ function AboutHead() {
         </div>
 
         <p className="about-description">
-          Hey there, I'm Luca. I am a data scientist, mathematician and software enthusiast.
+          Hey there, I'm Asina Raoelison. I am a data scientist, mathematician and software enthusiast.
           <br></br>
           <br></br>
           I am currently working as MLOps Engineer in a team of passionate software engineers at Quanthome, a data-driven startup based in Lausanne and aiming at digitalising the Swiss real estate market. There, I got the opportunity to consolidate and expand my software stack while recruiting and supervising a team of junior data scientists,
