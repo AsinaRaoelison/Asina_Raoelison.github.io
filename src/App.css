@@ -211,7 +211,7 @@ a,
   body>*:not(#not-available-message) {
     display: block;
   }
-}
+
 
 
 @media (min-width: 426px) {
