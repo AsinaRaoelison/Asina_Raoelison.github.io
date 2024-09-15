@@ -184,7 +184,7 @@ a,
 /* Media query to show the message when width is less than 600px */
 @media (max-width: 600px) {
   #not-available-message {
-    display: block;
+    display: none;
   }
 
   /* Hide the rest of the content when the message is visible */
