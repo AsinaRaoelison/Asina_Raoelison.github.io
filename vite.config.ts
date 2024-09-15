@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/portfolio/', // Adjust to match the GitHub Pages URL path
   build: {
-    outDir: 'dist' // Assurez-vous que cela correspond au répertoire utilisé dans le script deploy
+    outDir: 'dist'
   }
 });
