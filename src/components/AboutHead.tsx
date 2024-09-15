@@ -1,5 +1,5 @@
 import cv_file from "../files/cv_luca_nyckees.pdf";
-import profile_pic from "../images/luca.jpeg";
+import profile_pic from "../images/Asina.jfif";
 
 function MailButton(icon: string) {
   return (
@@ -53,10 +53,10 @@ function AboutHead() {
             <a href={cv_file} target="_blank" id="cv-button">
               <button type="button">CV</button>
             </a>
-            <a href="https://www.linkedin.com/in/luca-nyckees-64674320b/" target="_blank">
+            <a href="https://www.linkedin.com/in/heriniaina-ramasinarivo-b94866164/" target="_blank">
               <button type="button" className="fa fa-linkedin"></button>
             </a>
-            <a href="https://github.com/LucaNyckees" target="_blank">
+            <a href="https://github.com/AsinaRaoelison" target="_blank">
               <button type="button" className="fa fa-github"></button>
             </a>
           </div>

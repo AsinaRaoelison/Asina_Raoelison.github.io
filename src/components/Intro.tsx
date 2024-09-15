@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div className="text-box" id='name-and-logo-text-box'>
       <h1 className='name-and-logo'>
-        Asina 
+        Asina RAOELISON
       </h1>
       {/* <img src={my_logo} alt="My Logo" className="logo" /> */}
       <p>
