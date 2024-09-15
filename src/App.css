@@ -182,9 +182,10 @@ a,
 }
 
 /* Media query to show the message when width is less than 600px */
+/* Media query to show the message when width is less than 600px */
 @media (max-width: 600px) {
   #not-available-message {
-    display: none;
+    display: block; /* Ensure the message is displayed */
   }
 
   /* Hide the rest of the content when the message is visible */
@@ -192,6 +193,19 @@ a,
     display: none;
   }
 }
+
+/* Ensure the message is hidden on larger screens */
+@media (min-width: 601px) {
+  #not-available-message {
+    display: none;
+  }
+
+  /* Show the rest of the content when screen is larger */
+  body>*:not(#not-available-message) {
+    display: block;
+  }
+}
+
 
 @media (min-width: 426px) {
   .row {
