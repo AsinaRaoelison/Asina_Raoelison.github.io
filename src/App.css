@@ -183,22 +183,29 @@ a,
 
 /* Media query to show the message when width is less than 600px */
 /* Media query to show the message when width is less than 600px */
+/* Media query to show the message when width is less than 600px */
 @media (max-width: 600px) {
   #not-available-message {
-    display: block; /* Ensure the message is displayed */
+    display: none; /* Keep the message hidden for small screens */
   }
 
-  /* Hide the rest of the content when the message is visible */
-  body>*:not(#not-available-message) {
-    display: none;
+  /* Ensure that the content is visible on small screens */
+  body>* {
+    display: block;
   }
 }
 
-/* Ensure the message is hidden on larger screens */
+/* Media query for larger screens */
 @media (min-width: 601px) {
   #not-available-message {
-    display: none;
+    display: none; /* Ensure the message stays hidden */
   }
+
+  /* Keep content visible */
+  body>* {
+    display: block;
+  }
+}
 
   /* Show the rest of the content when screen is larger */
   body>*:not(#not-available-message) {
