@@ -68,7 +68,7 @@ function Menu() {
                 // offset={-70} // Adjust the offset as needed
                 // duration={500}
               >
-                HOME
+                HOME Page
               </Link>
             </li>
             <li>
@@ -80,7 +80,7 @@ function Menu() {
                 // offset={-70}
                 // duration={500}
               >
-                ABOUT
+                Apropo
               </Link>
             </li>
             <li>
